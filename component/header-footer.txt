@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>SORSOGON</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- online fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-theme-blue.css"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/assets/images/sorsogon-logo.png" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  </head>
+
+  <body>
+
+    <div w3-include-html="/component/header.html"></div>
+    <!-- CONTENT -->
+    <div id="load-me-later">
+      <h1>sample</h1>
+    </div>
+
+    <!-- END OF CONTENT -->
+    <div w3-include-html="/component/footer.html"></div>
+
+    <!-- change the value of bannerName to your prefered page -->
+
+    <!-- <script>
+w3.includeHTML();
+var bannerName ="taxes";
+document.getElementById('text-banner').innerHTML = bannerName
+</script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script >
+      var bannerName = "put name here in this variable";
+    </script>
+    <script src="/assets/js/script.js"></script>
+
+  </body>
+  <!-- preloader -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <div class="se-pre-con"></div>
+  <!-- end of preloader -->
+</html>
