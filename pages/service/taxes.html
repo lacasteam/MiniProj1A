@@ -40,6 +40,7 @@
     />
     <!-- css style -->
     <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../assets/css/calc.css">
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
@@ -81,7 +82,8 @@
             <p><span class="font-weight-bold">Service Schedules:</span>Mondays to Fridays</p>
             <p><span class="font-weight-bold">Total Processing Time:</span> 20 minutes</p>
             <h3>Collection of Business tax and other Miscellaneous Taxes</h3>
-            <p>Total Fees/Charges:</p>
+            <p class="text-danger"><i>*You may use the built-in calculator provided below*</i></p>
+            <p id="calc">Total Fees/Charges:</p>
             <p>For business taxes:</p>
             <ul>
               <li>New business computed based on the type of Business and capital</li>
@@ -97,42 +99,32 @@
               <li>Garbage Fee – P 250.00</li>
             </ul>
             <p class="font-italic">For late payments: Additional 25% surcharge</p>
-            <h3>Steps in availing services:</h3>
-            <table class="table table-sm text-center table-responsive">
-              <thead>
-                 <tr class="thead-light">
-                  <th style="vertical-align: middle;">Steps</th>
-                  <th style="vertical-align: middle;">Action of the CTO</th>
-                  <th style="vertical-align: middle;">Transaction time</th>
-                  <th style="vertical-align: middle;">Responsible Person</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>A. BUSINESS TAX1. Present the approved Sworn Declaration and other requirements for Business Permit</td>
-                  <td>Computes the business tax and other regulatory fees</td>
-                  <td>10 mins</td>
-                  <td>Local Revenue Collection Officer IV</td>
-                </tr>
-                <tr>
-                  <td>2. Pay business taxes and other  regulatory fees and charges 
-                  <span class="d-block"></span> receipt and review amount indicated</td>
-                  <td>Issues official receipt</td>
-                  <td>10 mins</td>
-                  <td>Local Revenue Collection Officer III</td>
-                </tr>
-                <tr>
-                  <td>
-                    B. MISCELLANEOUS TAXES such as CTC, Cert. Fee, Tax Clearance, Bldg. Permit, Transfer Tax, etc <span class="d-block"></span>1. Fill out Personal Data Sheet for CTC, present order of payment for various kind of certification and bldg. permit at window 1<span class="d-block"></span>2. Affix the signature and thumb mark on 3 copies of CTC<span class="d-block"></span>3. Pay the amount computed by the RCC and receive the CTC
-                  </td>
-                  <td>
-                    Computes the amount to be paid based on the information submitted by the client and fills-out the information at the CTC form issues AF 51 or official receipt  for various  certifications<span class="d-block"></span>RCC signs for the Treasurer<span class="d-block"></span>Issues CTC
-                  </td>
-                  <td>5 mins<span class="d-block"></span>5 mins<span class="d-block"></span>5 mins</td>
-                  <td>Revenue Collection Clerk III</td>
-                </tr>
-              </tbody>
-            </table>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="calculator-grid">
+            <div class="output">
+              <div data-previous-operand class="previous-operand"></div>
+              <div data-current-operand class="current-operand"></div>
+            </div>
+            <button data-all-clear class="span-two_AC">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="span-two_equal">=</button>
           </div>
         </div>
       </div>
@@ -154,6 +146,7 @@ document.getElementById('text-banner').innerHTML = bannerName
       var bannerName = "taxes";
     </script>
     <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/calc.js"></script>
 
   </body>
   <!-- preloader -->
